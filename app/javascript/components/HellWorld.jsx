@@ -1,3 +1,6 @@
+{
+	/* for react-rails */
+}
 import React from 'react'
 import PropTypes from 'prop-types'
 class HellWorld extends React.Component {
