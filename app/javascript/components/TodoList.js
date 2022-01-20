@@ -1,10 +1,11 @@
 import React from 'react'
 
-function TotoLList() {
+function TodoList() {
   return (
     <div>
 
     </div>
   )
 }
-export default TotoLList
+
+export default TodoList
