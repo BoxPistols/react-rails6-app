@@ -12,6 +12,7 @@ const Logo = styled.div`
   font-weight: bold;
   font-size: 23px;
   letter-spacing: 3px;
+	padding: 1vw;
 `
 
 const Wrapper = styled.div`
