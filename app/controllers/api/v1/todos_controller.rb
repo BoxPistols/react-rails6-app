@@ -4,7 +4,7 @@ class Api::V1::TodosController < ApplicationController
   def index
 		# todos変数(複数) = モデルTodoのインスタンス、ソート追加古い順
     todos = Todo.order(updated_at: :desc)
-		# jsonのtodosから取得
+		# todosのデータをJSON形式のデータで返却
     render json: todos
   end
 
